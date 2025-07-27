@@ -1,0 +1,11 @@
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.cpython-*
+
+# Ignorar arquivos de cache em subdiretórios
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.cpython-*
